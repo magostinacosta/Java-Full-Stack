@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="utf-8"/>
+    <head>
+        <title>
+            Clase 4
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Formularios
+            </h1>
+        </header>
+        <section>
+            <form action="https://formspree.io/xoqkgjrd" method="POST" target="_blank">
+                <label for="nombre">
+                    Nombre
+                    <input id="nombre" name="text" type="nombre"/>
+                </label>
+                <label>
+                    Comentarios
+                    <textarea cols="50" name="comentarios" rows="5">
+                    </textarea>
+                </label>
+                <input name="submit" type="submit"/>
+                <input name="reset" type="reset"/>
+                <label>
+                    Seleccionar
+                    <select>
+                        <option>
+                            Uno
+                        </option>
+                        <option>
+                            Dos
+                        </option>
+                        <option>
+                            Tres
+                        </option>
+                    </select>
+                </label>
+                <fieldset>
+                    <legend>
+                        Datos Personales
+                    </legend>
+                    <label>
+                        Nombre
+                    </label>
+                    <input name="nombre" required="" type="text"/>
+                    <label>
+                        Apellido
+                        <input name="apellido" type="text"/>
+                    </label>
+                    <label>
+                        Correo electrónico
+                        <input name="email" placeholder="xxx@xxx.com.ar" type="text"/>
+                    </label>
+                    <input name="submit" type="submit" value="Enviar formulario"/>
+                    <label>
+                        Contraseña:
+                        <input name="password" type="password"/>
+                    </label>
+                    <br/>
+                    <br/>
+                    <label>
+                        Femenino
+                        <input name="genero" type="radio"/>
+                    </label>
+                    <label>
+                        Masculino
+                        <input name="genero" type="radio"/>
+                    </label>
+                    <label>
+                        Otro
+                        <input name="genero" type="radio"/>
+                    </label>
+                    <label>
+                        Opción 1
+                        <input name="opcion" type="checkbox"/>
+                    </label>
+                    <label>
+                        Opción 2
+                        <input name="opcion" type="checkbox"/>
+                    </label>
+                    <label>
+                        Cantidad:
+                        <input name="cantidad" type="number"/>
+                    </label>
+                    <label>
+                        <input name="fecha" type="date"/>
+                    </label>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>
