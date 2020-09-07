@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    color: white;
+}
+header {
+    background-color: #A36BFF
+}
+section {
+    background-color: #FFA36B
+}
+article {
+    background-color: #FF687D
+}
+footer {
+    background-color: #78DBBC
+}
+h1 {
+    letter-spacing: 2em;
+    text-align: center;
+}
+.parrafo1 {
+    word-spacing: 5px;
+}
+.parrafo2 {
+    text-transform: uppercase;
+}
+h3 {
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+h4 {
+    text-shadow: 10px 20px #FF0000
+}
+table {
+    border: 2px solid black
+}
+td {
+    border-left: 1px dotted white
+}
+button {
+    border-radius: 25px
+}
+ol li {
+    list-style-type: upper-alpha;
+}
+ul li {
+    list-style-type: square;
+}

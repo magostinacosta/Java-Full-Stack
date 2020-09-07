@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+body {
+    font-family: 'Kufam', cursive;
+    background-color: rgba(194, 222, 163, 0.5);
+}
+.center {
+    text-align: center;
+}
+#pie {
+    text-align: center;
+}
+input {
+    background-color: #000000;
+    color: white;
+    border-color: #3F8946;
+}
