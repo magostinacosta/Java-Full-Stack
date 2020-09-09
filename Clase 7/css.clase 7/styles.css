@@ -1,0 +1,66 @@
+/* h1 {
+    color: red!important;
+}
+#title {
+    color: pink;
+}
+.title {
+    color: yellow;
+}
+h1 {
+    color: blue!important
+}
+div p {
+    background-color: black;
+    color: white;
+}
+
+*/
+
+* {
+    margin: 0;
+}
+.margin {
+    background-color: #AEEA6B;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    /*
+   margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+}
+*/
+}
+.padding {
+    background-color: #52D2A3;
+    width: 200px;
+    height: 150px;
+    /* padding: 50px;
+        padding-bottom: 55px;
+        padding-right: 2px;
+        padding-left: 20px;
+        padding-top: 20px;*/
+    padding: 10px 20px 10px 20px;
+}
+.border {
+    background-color: #5066E5;
+    width: 200px;
+    height: 150px;
+    border: 5px solid black;
+}
+.box-model {
+    background-color: #9F49CD;
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.box-sizing {
+    background-color: #CD4963;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+}
